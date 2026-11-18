@@ -1,0 +1,29 @@
+{#- Ported from prototype v5 (design/scripts/port-v5-to-site.py). Menu items: src/_data/nav.json -#}
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="/" aria-current="page">
+      <img eleventy:ignore src="/assets/img/logo/gatosdoc2-logo-on-dark-footer-160px.png" width="130" height="160" alt="">
+      <img eleventy:ignore class="brand__logo-claro" src="/assets/img/logo/gatosdoc2-logo-header-80px.png" width="65" height="80" alt=""><span class="brand__name">Gatos do C2</span>
+    </a>
+    <nav class="site-nav" aria-label="Principal">
+      <ul class="nav-list">
+{%- for item in nav %}{% if exemplos or not item.exemplo %}
+{%- set atual = (page.url == item.url) or (item.url != "/" and page.url.startsWith(item.url)) or (item.inclui and (page.url in item.inclui)) %}
+        <li><a href="{{ item.url }}"{% if atual %} aria-current="page"{% endif %}{% if idioma == "en" and item.titulo_en %}>{{ item.titulo_en }}{% else %}{% if idioma == "en" %} lang="pt-BR"{% endif %}>{{ item.titulo }}{% endif %}</a></li>
+{%- endif %}{% endfor %}
+      </ul>
+    </nav>
+    <details class="menu">
+      <summary><svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg> Menu</summary>
+      <nav aria-label="Principal (menu)">
+      <ul class="nav-list">
+{%- for item in nav %}{% if exemplos or not item.exemplo %}
+{%- set atual = (page.url == item.url) or (item.url != "/" and page.url.startsWith(item.url)) or (item.inclui and (page.url in item.inclui)) %}
+        <li><a href="{{ item.url }}"{% if atual %} aria-current="page"{% endif %}{% if idioma == "en" and item.titulo_en %}>{{ item.titulo_en }}{% else %}{% if idioma == "en" %} lang="pt-BR"{% endif %}>{{ item.titulo }}{% endif %}</a></li>
+{%- endif %}{% endfor %}
+      </ul>
+      </nav>
+    </details>
+  </div>
+</header>

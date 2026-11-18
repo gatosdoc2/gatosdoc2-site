@@ -1,0 +1,17 @@
+{
+  "_leia": "Domínios que o site pode citar. Recursos (imagens, CSS, fontes, scripts) só do próprio site: nenhum domínio de terceiros (decisão 0017). Links <a> só para os domínios abaixo; incluir outro exige decisão do grupo (Portaria GR 3361/2002, pergunta Q-46).",
+  "proprios": [
+    "gatosdoc2.eesc.usp.br"
+  ],
+  "links_permitidos": [
+    "www.instagram.com",
+    "instagram.com",
+    "chat.whatsapp.com",
+    "wa.me",
+    "www.youtube.com",
+    "www.puspsc.usp.br"
+  ],
+  "emails_permitidos": [
+    "gatosdoc2@gmail.com"
+  ]
+}

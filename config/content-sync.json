@@ -1,0 +1,15 @@
+{
+  "_leia": "Gerado por scripts/sync-content.mjs. Não edite.",
+  "origem": "content",
+  "arquivos": {
+    "src/pages/acessibilidade-e-privacidade.md": "5ae4661b1781e59843d1e9d970555ddc79c0d20f838bb17616c1c0168bcbc6df",
+    "src/pages/adocao.md": "6dab8d1b71d0c094275547c1f6aecda596a49230d22932d17d3c5c94f87a94d5",
+    "src/pages/ajude.md": "24a3f22402cb79405c603e16cd569cd212eecbff873492a0d47a2b57053b0efc",
+    "src/pages/contato.md": "ee093cee73c6df12dabadc690710f8c5dd55597f188402846f18bc56d7729819",
+    "src/pages/encontrei-um-gato.md": "cdbc5bc9f7d2e49178623fe8192827575db85a5c5d29653d989a71450cf5de0a",
+    "src/pages/index.md": "3942ddc701571aa9c4281bc9f96503f3f45a20ddaf63e666fbc31f5108c4676c",
+    "src/pages/manejo-etico.md": "7087a483afd7718559b4e20784036f9496632aa4b35c120d7a5723e34ba6233a",
+    "src/pages/quem-somos.md": "4289ad0d8ef728e36d29131e61d1f6ed8acbab212e88c211f9f93d1fc779acee",
+    "src/_includes/compartilhado.md": "6639d1e61a4c18e8e2590efeb09217f7319476410fd0fb1d2b08df87bf9a6924"
+  }
+}

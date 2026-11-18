@@ -1,0 +1,10 @@
+{
+  "_leia": "Aparência de cada seção (pelo título exato do ## no Markdown). Valores: rotas, alternada, contato, faixa-ajude. Seção sem entrada usa o padrão. Ver docs/como-funciona.md.",
+  "secoes": {
+    "O que você quer fazer?": "rotas",
+    "Como funciona": "alternada",
+    "Números da colônia": "alternada",
+    "Fale conosco": "contato",
+    "Como participar": "faixa-ajude"
+  }
+}

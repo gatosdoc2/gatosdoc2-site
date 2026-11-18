@@ -1,0 +1,274 @@
+---
+layout: layouts/base.njk
+title: Gatos do C2
+description: University of São Paulo (USP) São Carlos extension group that cares for the cat colony of Campus 2 with the CED method (trap, neuter, return).
+permalink: /en/
+idioma: en
+---
+<main id="conteudo" tabindex="-1">
+  <section class="hero" aria-labelledby="titulo">
+    <div class="wrap grid hero__grid">
+      <div class="hero__text">
+        <p class="kicker">Gatos do C2 · Campus 2 · USP São Carlos</p>
+        <!-- DRAFT h1 and lede: sentences of index.md (F, F2) reordered so the h1 says what the group does instead of
+             repeating the logo's name (layout-benchmark §1). B approves the wording. -->
+        <h1 id="titulo">We care for the cat colony of Campus 2</h1>
+        <p class="lede">An extension group of the University of São Paulo (USP) in São Carlos. Since mid-2022, with the CED method: <span lang="pt-BR">Captura, Esterilização, Devolução</span> (trap, neuter, return).</p>
+        <!-- DRAFT UI string (C, v4): only this page is translated. -->
+        <p class="note">The other pages of this site are in Portuguese.</p>
+      <ul class="routes" aria-label="Where to start">
+        <li class="route">
+          <!-- No photo on purpose: an adoption photo needs the group's consent for that animal (adocao.md, selection.md). -->
+          <span class="route__thumb blank"></span>
+          <span><span class="route__title"><a href="/adocao/" hreflang="pt-BR">I want to adopt</a></span><span class="route__hint">See how it works.</span></span>
+          <svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+        </li>
+        <li class="route">
+          <span class="route__thumb"><img eleventy:ignore src="/assets/img/paginas/p02-caixas-480.jpg" width="480" height="320" alt=""></span>
+          <span><span class="route__title"><a href="/ajude/" hreflang="pt-BR">I want to help</a></span><span class="route__hint">See how to take part.</span></span>
+          <svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+        </li>
+        <li class="route">
+          <span class="route__thumb"><img eleventy:ignore src="/assets/img/paginas/p01-gaiola-480.jpg" width="480" height="600" alt=""></span>
+          <span><span class="route__title"><a href="/manejo-etico/" hreflang="pt-BR">How we care for the colony</a></span><span class="route__hint">Learn about the CED method.</span></span>
+          <svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+        </li>
+      </ul>
+      </div>
+      <figure class="hero__photo">
+        <!-- LCP image: not lazy. v4: #14 re-cropped (p14b-*) to drop the blurred carrier bars. Phones get the 3:2 face crop, wide screens the 4:5 (art direction, crop rules C §5).
+             DRAFT alt and caption from selection.md #14. -->
+        <picture>
+          <source media="(min-width: 60rem)" srcset="/assets/img/paginas/p14b-ficha-480.jpg 480w, /assets/img/paginas/p14b-ficha-960.jpg 760w" sizes="(min-width: 78rem) 30rem, 38vw" width="480" height="600">
+          <img eleventy:ignore class="photo photo--3x2" src="/assets/img/paginas/p14b-rosto-480.jpg" srcset="/assets/img/paginas/p14b-rosto-480.jpg 480w, /assets/img/paginas/p14b-rosto-960.jpg 760w" sizes="100vw" width="480" height="320" fetchpriority="high" alt="Tricolour cat sitting inside a blue pet carrier, looking at the camera through the open door.">
+        </picture>
+        <figcaption class="caption">Cat in a pet carrier. [place to be confirmed], <time datetime="2024-07-22">22 Jul 2024</time> [to be confirmed]. Photo: Gatos do C2.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="urgente" aria-labelledby="encontrei">
+    <!-- v3: the "Encontrei um gato" strip (news-and-features.md feature 1). Copy: encontrei-um-gato.md, cut. -->
+    <div class="wrap grid urgente__grid">
+      <div class="urgente__head">
+        <div class="urgente__body">
+          <div class="section-head"><h2 id="encontrei">I found a cat</h2></div>
+          <p>If you found a cat on Campus 2 of the University of São Paulo (USP) in São Carlos, contact the group.</p>
+          <div class="actions section-actions">
+            <a class="button button--on-field" href="/encontrei-um-gato/" hreflang="pt-BR">See how to contact the group <svg class="icon icon--arrow" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+          </div>
+          <ul class="contact-inline">
+            <li><a href="https://www.instagram.com/gatosdoc2/"><svg class="icon icon--brand" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"></path></svg> Instagram @gatosdoc2</a></li>
+            <li><a href="mailto:gatosdoc2@gmail.com"><svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg> gatosdoc2@gmail.com</a></li>
+          </ul>
+        </div>
+        <figure class="urgente__foto">
+          <!-- Decorative here (alt=""): the heading names the task. selection.md #39. -->
+          <img eleventy:ignore src="/assets/img/paginas/p39-caminho-480.jpg" width="480" height="600" loading="lazy" decoding="async" alt="">
+        </figure>
+      </div>
+      <div class="checklist-wrap">
+        <p class="kicker">What helps in your message</p>
+        <ol class="checklist">
+          <li>Where the cat is (building, street or landmark on campus).</li>
+          <li>When you saw it.</li>
+          <li>Whether it looks injured or ill.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="noticias">
+    <!-- v3: Notícias = 1 featured + the 3 newest others (news-and-features.md §5). All four are REAL items with a source. -->
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="noticias">News</h2>
+        <a class="link-arrow" href="/noticias/" hreflang="pt-BR">All news (in Portuguese) <svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a>
+      </div>
+      <div class="grid news-grid">
+  <article class="featured">
+    <figure>
+      <!-- DRAFT alt and caption from selection.md #4 (two recognisable people: ask them, low cost). Photo is mood, not proof of the event (all photos are from the 22/07/2024 set). -->
+      <img eleventy:ignore class="photo photo--4x5" src="/assets/img/paginas/p04-armadilha-480.jpg" srcset="/assets/img/paginas/p04-armadilha-480.jpg 480w, /assets/img/paginas/p04-armadilha-960.jpg 960w" sizes="(min-width: 60rem) 19rem, (min-width: 40rem) 45vw, 100vw" width="480" height="600" loading="lazy" decoding="async" alt="Two people in a corridor with yellow tactile paving: one, crouching, adjusts a wire cage covered with black plastic and a blue tarp; the other stands watching.">
+      <figcaption class="caption">Preparing a trap. Campus 2 [to be confirmed], <time datetime="2024-07-22">22 Jul 2024</time> [to be confirmed]. Photo: Gatos do C2.</figcaption>
+    </figure>
+    <div class="featured__text">
+      <p class="meta"><span class="chip">Field action</span><span><svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M8 2v3"></path><path d="M16 2v3"></path><rect x="3" y="3" width="18" height="18" rx="2"></rect><path d="M3 9h18"></path></svg> <time datetime="2024-03-21">21 and 22 Mar 2024</time></span></p>
+      <h3 class="featured__title"><a href="/noticias/vinte-gatos-castrados-no-campus-2/" hreflang="pt-BR">Twenty cats neutered on Campus 2</a></h3>
+      <p>On 21 and 22 March 2024, twenty cats from the Campus 2 colony were neutered with the support of a partner veterinary clinic.</p>
+      <p class="source">Source: group report, March 2024.</p>
+    </div>
+  </article>
+        <ol class="news-list" aria-label="Latest">
+    <li class="news-row">
+      <!-- No post page in the prototype for this item. -->
+      <p class="news-row__date"><time datetime="2026-10-19"><span class="d">19</span> Oct 2026</time></p>
+      <div class="news-row__body">
+        <p><span class="chip">Event</span></p>
+        <h3 class="news-row__title">São Carlos city hall holds a neutering drive</h3>
+      </div>
+      <div class="news-row__thumb"><span class="blank blank--3x2">Sem imagem</span></div>
+    </li>
+    <li class="news-row">
+      <!-- No post page in the prototype for this item. -->
+      <p class="news-row__date"><time datetime="2024-08-06"><span class="d">06</span> Aug 2024</time></p>
+      <div class="news-row__body">
+        <p><span class="chip">Notice</span></p>
+        <h3 class="news-row__title">USP São Carlos publishes a notice about animals on campus</h3>
+        <p class="source">Illustrative image: Campus 2 university restaurant. Photo: Fonsecarm, Wikimedia Commons, CC0.</p>
+      </div>
+      <div class="news-row__thumb"><img eleventy:ignore src="/assets/img/paginas/f01-ru-campus2-480.jpg" width="480" height="320" loading="lazy" decoding="async" alt=""></div>
+    </li>
+    <li class="news-row">
+      <!-- No post page in the prototype for this item. -->
+      <p class="news-row__date"><time datetime="2024-07-22"><span class="d">22</span> Jul 2024</time></p>
+      <div class="news-row__body">
+        <p><span class="chip">Field action</span></p>
+        <h3 class="news-row__title">Record of a field action</h3>
+      </div>
+      <div class="news-row__thumb"><img eleventy:ignore src="/assets/img/paginas/p02-caixas-480.jpg" width="480" height="320" loading="lazy" decoding="async" alt=""></div>
+    </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section field-blue on-field" aria-labelledby="gatos-da-colonia">
+    <div class="wrap">
+      <!-- DRAFT heading (C, v2). Fichas: no name, place or sterilisation date has a source yet (Q-63); never filled with guesses. -->
+      <div class="section-head"><h2 id="gatos-da-colonia">Cats of the colony</h2></div>
+      <p class="note strip-hint">Swipe sideways to see the three records.</p>
+      <section class="strip" aria-label="Cat records" tabindex="0">
+        <ul class="fichas">
+          <li class="ficha-li--grande">
+            <article class="ficha ficha--grande">
+              <figure class="ficha__foto">
+                <!-- DRAFT alt (AI, v2) and caption by analogy with #14. v4: wide screens get a 3:2 crop of the same photo (p23-ficha-larga). -->
+                <picture>
+                  <source media="(min-width: 60rem)" srcset="/assets/img/paginas/p23-ficha-larga-480.jpg 480w, /assets/img/paginas/p23-ficha-larga-960.jpg 960w" sizes="(min-width: 78rem) 34rem, 44vw" width="480" height="320">
+                  <img eleventy:ignore class="photo photo--4x5" src="/assets/img/paginas/p23-ficha-480.jpg" srcset="/assets/img/paginas/p23-ficha-480.jpg 480w, /assets/img/paginas/p23-ficha-960.jpg 768w" sizes="82vw" width="480" height="600" loading="lazy" decoding="async" alt="Grey and brown tabby cat lying inside a blue pet carrier, head raised, looking at the camera.">
+                </picture>
+                <figcaption class="caption">In a pet carrier. [place to be confirmed], <time datetime="2024-07-22">22 Jul 2024</time> [to be confirmed].</figcaption>
+              </figure>
+              <div class="ficha__corpo">
+                <div class="flow">
+                <h3 class="ficha__numero">Record 01</h3>
+                <dl class="ficha__dados">
+                  <dt>Name</dt><dd><span class="a-confirmar">to be confirmed</span></dd>
+                  <dt>Coat</dt><dd>tabby <span class="a-confirmar">(from the photo; to be confirmed)</span></dd>
+                  <dt>Usual spot</dt><dd><span class="a-confirmar">to be confirmed</span></dd>
+                </dl>
+                </div>
+                <p class="ficha__carimbo">Neutered: to be confirmed</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="ficha">
+              <figure class="ficha__foto">
+                <!-- DRAFT alt (AI, v2) and caption by analogy with #14. -->
+                <img eleventy:ignore class="photo photo--4x5" src="/assets/img/paginas/p36-ficha-480.jpg" srcset="/assets/img/paginas/p36-ficha-480.jpg 480w, /assets/img/paginas/p36-ficha-960.jpg 720w" sizes="(min-width: 60rem) 15rem, 82vw" width="480" height="600" loading="lazy" decoding="async" alt="Black and white cat with a white muzzle and chest, inside a pet carrier, looking at the camera.">
+                <figcaption class="caption">In a pet carrier. [place to be confirmed], <time datetime="2024-07-22">22 Jul 2024</time> [to be confirmed].</figcaption>
+              </figure>
+              <div class="flow">
+                <h3 class="ficha__numero">Record 02</h3>
+                <dl class="ficha__dados">
+                  <dt>Name</dt><dd><span class="a-confirmar">to be confirmed</span></dd>
+                  <dt>Coat</dt><dd>black and white <span class="a-confirmar">(from the photo; to be confirmed)</span></dd>
+                  <dt>Usual spot</dt><dd><span class="a-confirmar">to be confirmed</span></dd>
+                </dl>
+                <p class="ficha__carimbo">Neutered: to be confirmed</p>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="ficha">
+              <figure class="ficha__foto">
+                <!-- DRAFT alt and caption, selection.md #20 (file 17.09.45(1)). -->
+                <img eleventy:ignore class="photo photo--4x5" src="/assets/img/paginas/p20-calcada-480.jpg" srcset="/assets/img/paginas/p20-calcada-480.jpg 480w, /assets/img/paginas/p20-calcada-960.jpg 960w" sizes="(min-width: 60rem) 15rem, 82vw" width="480" height="600" loading="lazy" decoding="async" alt="White cat with grey patches sitting on a concrete pavement, looking up, with a long shadow beside it.">
+                <figcaption class="caption">On the pavement. Campus 2 [to be confirmed], <time datetime="2024-07-22">22 Jul 2024</time> [to be confirmed].</figcaption>
+              </figure>
+              <div class="flow">
+                <h3 class="ficha__numero">Record 03</h3>
+                <dl class="ficha__dados">
+                  <dt>Name</dt><dd><span class="a-confirmar">to be confirmed</span></dd>
+                  <dt>Coat</dt><dd>white with grey patches <span class="a-confirmar">(from the photo; to be confirmed)</span></dd>
+                  <dt>Usual spot</dt><dd><span class="a-confirmar">to be confirmed</span></dd>
+                </dl>
+                <p class="ficha__carimbo">Neutered: to be confirmed</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <div class="field-foot">
+        <div class="em-construcao" role="note">
+          <!-- DRAFT (C, v2), same pattern as content/shared.md "em construção". -->
+          <p><span class="em-construcao__label">Under construction.</span> We are still gathering each cat’s details: name, where it usually stays and whether it has been neutered.</p>
+        </div>
+        <div class="actions section-actions"><a class="button button--on-field" href="mailto:gatosdoc2@gmail.com"><svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg> Write an e-mail</a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section field-beige" aria-labelledby="como-ajudar-hoje">
+    <!-- v3: "Como ajudar hoje" (news-and-features.md feature 3). Copy from ajude.md, cut; headings are its h2s. -->
+    <div class="wrap">
+      <div class="section-head"><h2 id="como-ajudar-hoje">How to help today</h2></div>
+      <ol class="passos">
+        <li class="passo">
+          <span class="num" aria-hidden="true">1</span>
+          <h3>Contact the group</h3>
+          <p>Message the group on Instagram or write an e-mail.</p>
+          <p><a href="https://www.instagram.com/gatosdoc2/"><svg class="icon icon--brand" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"></path></svg> Instagram @gatosdoc2</a></p>
+        </li>
+        <li class="passo">
+          <span class="num" aria-hidden="true">2</span>
+          <h3>Students: join the group</h3>
+          <p>Students join through the WhatsApp group.</p>
+          <p class="note">WhatsApp group: the link will be published here. For now, use Instagram or e-mail.</p>
+        </li>
+        <li class="passo">
+          <span class="num" aria-hidden="true">3</span>
+          <h3>Collection points</h3>
+          <p>There are collection points on campus.</p>
+          <p class="note">Places, items and times: <span class="a-confirmar">to be confirmed</span>.</p>
+        </li>
+        <li class="passo">
+          <span class="num" aria-hidden="true">4</span>
+          <h3>Money donations</h3>
+          <p>The group accepts donations by PIX (Brazilian instant payment). The key and details are not on the site yet.</p>
+          <p><a href="mailto:gatosdoc2@gmail.com"><svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg> To find out how to donate, write to us</a></p>
+        </li>
+      </ol>
+      <div class="actions section-actions"><a class="button button--secondary" href="/ajude/" hreflang="pt-BR">See the ways to help (in Portuguese) <svg class="icon icon--arrow" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a></div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="fale-com-o-grupo">
+    <div class="wrap grid contato__grid">
+      <div class="contato__intro">
+        <div class="section-head"><h2 id="fale-com-o-grupo">Contact the group</h2></div>
+        <p>Contact the group through whichever channel is easiest for you.</p>
+        <p class="note">WhatsApp group: the link will be published here. For now, use Instagram or e-mail.</p>
+      </div>
+      <div class="contato__canais">
+        <div class="actions section-actions">
+          <a class="button button--action" href="mailto:gatosdoc2@gmail.com"><svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg> Write an e-mail</a>
+          <a class="button button--secondary" href="https://www.instagram.com/gatosdoc2/"><svg class="icon icon--brand" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"></path></svg> Instagram @gatosdoc2</a>
+        </div>
+        <div class="lugar">
+          <figure>
+            <!-- Free-licence image (CC0, CREDITS.md f01): the only Campus 2 picture we have that shows the place. Alt by C (DRAFT). -->
+            <img eleventy:ignore class="photo photo--3x2" src="/assets/img/paginas/f01-ru-campus2-480.jpg" srcset="/assets/img/paginas/f01-ru-campus2-480.jpg 480w, /assets/img/paginas/f01-ru-campus2-960.jpg 960w" sizes="(min-width: 60rem) 20rem, (min-width: 40rem) 45vw, 100vw" width="480" height="320" loading="lazy" decoding="async" alt="Low glass building with a curved roof and a tall water tower, behind a lawn, under a blue sky with clouds.">
+            <figcaption class="caption">Campus 2 university restaurant. Photo: Fonsecarm, Wikimedia Commons, CC0.</figcaption>
+          </figure>
+          <div class="flow">
+            <h3>Where Campus 2 is</h3>
+            <address><svg class="icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg> <span lang="pt-BR">Avenida José Antônio Santilli, 2000, Bela Vista São-Carlense, São Carlos (SP), 13568-250.</span></address>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

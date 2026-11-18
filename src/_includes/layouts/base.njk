@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ idioma or site.idioma }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title == site.nome %}{{ site.nome }}{% else %}{{ title }} | {{ site.nome }}{% endif %}</title>
+<meta name="description" content="{{ description }}">
+{%- if noindex %}
+<meta name="robots" content="noindex">
+{%- elif page.url and page.url != "/404.html" %}
+<link rel="canonical" href="{{ urlBase or site.url }}{{ page.url }}">
+{%- endif %}
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/assets/fonts/literata-roman.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/style.css?v={{ versao }}">
+<script src="/assets/js/olhos.js" defer></script>
+</head>
+<body>
+{% include "partials/header.njk" %}
+{{ content | safe }}
+{% include "partials/footer.njk" %}
+{% include "partials/decor.njk" %}
+{% include "partials/painel.njk" %}
+</body>
+</html>

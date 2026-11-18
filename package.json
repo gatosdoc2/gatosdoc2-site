@@ -1,0 +1,26 @@
+{
+  "name": "gatosdoc2-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Site estático do Gatos do C2 (USP São Carlos, Campus 2).",
+  "license": "SEE LICENSE IN LICENSE",
+  "type": "module",
+  "engines": {
+    "node": ">=24.8"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "check": "node scripts/check.mjs",
+    "sync-content": "node scripts/sync-content.mjs",
+    "prepare-upload": "node scripts/prepare-upload.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.8",
+    "@11ty/eleventy-img": "7.1.1",
+    "@lhci/cli": "0.16.1",
+    "html-validate": "11.21.1",
+    "linkinator": "8.1.0",
+    "pa11y-ci": "5.0.0"
+  }
+}

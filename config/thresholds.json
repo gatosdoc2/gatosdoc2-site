@@ -1,0 +1,16 @@
+{
+  "_leia": "Limites do npm run check (decisão 0020; valores propostos pela frente F, revisáveis). Falha bloqueia o envio; aviso é listado e corrigido antes do lançamento.",
+  "lighthouse": {
+    "execucoes": 3,
+    "falha": { "performance": 0.85, "accessibility": 0.95, "seo": 0.90, "best-practices": 0.90, "lcp_ms": 3000, "cls": 0.1 },
+    "aviso": { "performance": 0.90, "lcp_ms": 2500 }
+  },
+  "pagina": {
+    "falha_bytes": 1572864,
+    "aviso_bytes": 1048576,
+    "html_css_js_gzip_falha_bytes": 174080
+  },
+  "imagem": { "falha_bytes": 307200, "aviso_bytes": 204800 },
+  "descricao": { "max_caracteres": 155 },
+  "gap_e_todo_falham": true
+}

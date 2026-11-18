@@ -1,0 +1,271 @@
+{
+  "_leia": "Aparência das páginas de texto: cor do topo (mist, beige), foto do topo, dois blocos coloridos ao lado e três blocos 'Continue por aqui' no fim. Cores dos blocos: rust, blue, navy, beige, eye. A foto precisa existir em src/assets/img/paginas/. Ver docs/como-funciona.md. 'enfeite': gato no topo do mosaico (espia, olhar, caixa, dorme, estica); 'anda': gato que atravessa a primeira seção. 'extras': módulos visuais (scripts/lib/extras.mjs) no fim da seção com aquele id; 'inicio' = antes da primeira.",
+  "/quem-somos/": {
+    "campo": "mist",
+    "foto": "p14b-ficha",
+    "blocos": [
+      {
+        "titulo": "O que fazemos",
+        "dica": "Frentes e projetos",
+        "url": "/frentes/",
+        "cor": "rust"
+      },
+      {
+        "titulo": "Notícias",
+        "dica": "Ações e avisos",
+        "url": "/noticias/",
+        "cor": "beige"
+      }
+    ],
+    "continue": [
+      {
+        "titulo": "Manejo ético",
+        "dica": "O método CED",
+        "url": "/manejo-etico/",
+        "cor": "navy"
+      },
+      {
+        "titulo": "Como ajudar",
+        "dica": "Pequenas ações",
+        "url": "/ajude/",
+        "cor": "beige"
+      },
+      {
+        "titulo": "Fale conosco",
+        "dica": "Canais de contato",
+        "url": "/contato/",
+        "cor": "blue"
+      }
+    ],
+    "enfeite": "estica",
+    "extras": [
+      {
+        "apos": "inicio",
+        "tipo": "fotos"
+      },
+      {
+        "apos": "quem-coordena",
+        "tipo": "equipe"
+      },
+      {
+        "apos": "projetos",
+        "tipo": "projetos"
+      }
+    ]
+  },
+  "/manejo-etico/": {
+    "campo": "mist",
+    "foto": "p04-armadilha",
+    "blocos": [
+      {
+        "titulo": "Capturas e castrações",
+        "dica": "Como fazemos",
+        "url": "/frentes/capturas/",
+        "cor": "rust"
+      },
+      {
+        "titulo": "O que fazemos",
+        "dica": "Todas as frentes",
+        "url": "/frentes/",
+        "cor": "navy"
+      }
+    ],
+    "continue": [
+      {
+        "titulo": "Encontrei um gato",
+        "dica": "Como avisar o grupo",
+        "url": "/encontrei-um-gato/",
+        "cor": "rust"
+      },
+      {
+        "titulo": "Quero adotar",
+        "dica": "Como funciona",
+        "url": "/adocao/",
+        "cor": "blue"
+      },
+      {
+        "titulo": "Vinte gatos castrados",
+        "dica": "Um registro de 2024",
+        "url": "/noticias/vinte-gatos-castrados-no-campus-2/",
+        "cor": "beige"
+      }
+    ],
+    "enfeite": "caixa",
+    "anda": true
+  },
+  "/encontrei-um-gato/": {
+    "campo": "mist",
+    "foto": "p20-calcada",
+    "blocos": [
+      {
+        "titulo": "Fale conosco",
+        "dica": "Canais de contato",
+        "url": "/contato/",
+        "cor": "rust"
+      },
+      {
+        "titulo": "Manejo ético",
+        "dica": "O que fazemos com os gatos",
+        "url": "/manejo-etico/",
+        "cor": "navy"
+      }
+    ],
+    "continue": [
+      {
+        "titulo": "Quero adotar",
+        "dica": "Como funciona",
+        "url": "/adocao/",
+        "cor": "blue"
+      },
+      {
+        "titulo": "Como ajudar",
+        "dica": "Pequenas ações",
+        "url": "/ajude/",
+        "cor": "beige"
+      },
+      {
+        "titulo": "Quem somos",
+        "dica": "O grupo",
+        "url": "/quem-somos/",
+        "cor": "eye"
+      }
+    ],
+    "enfeite": "espia"
+  },
+  "/adocao/": {
+    "campo": "mist",
+    "foto": "p36-ficha",
+    "blocos": [
+      {
+        "titulo": "Nossos bichanos",
+        "dica": "Conheça os gatos",
+        "url": "/#nossos-bichanos",
+        "cor": "blue"
+      },
+      {
+        "titulo": "Como ajudar",
+        "dica": "Se não puder adotar",
+        "url": "/ajude/",
+        "cor": "rust"
+      }
+    ],
+    "continue": [
+      {
+        "titulo": "Encontrei um gato",
+        "dica": "Como avisar o grupo",
+        "url": "/encontrei-um-gato/",
+        "cor": "rust"
+      },
+      {
+        "titulo": "Manejo ético",
+        "dica": "O método CED",
+        "url": "/manejo-etico/",
+        "cor": "navy"
+      },
+      {
+        "titulo": "Fale conosco",
+        "dica": "Canais de contato",
+        "url": "/contato/",
+        "cor": "eye"
+      }
+    ],
+    "enfeite": "dorme"
+  },
+  "/ajude/": {
+    "campo": "mist",
+    "foto": "p02-caixas",
+    "blocos": [
+      {
+        "titulo": "Quero adotar",
+        "dica": "Como funciona",
+        "url": "/adocao/",
+        "cor": "blue"
+      },
+      {
+        "titulo": "Fale conosco",
+        "dica": "Canais de contato",
+        "url": "/contato/",
+        "cor": "rust"
+      }
+    ],
+    "continue": [
+      {
+        "titulo": "O que fazemos",
+        "dica": "Frentes e projetos",
+        "url": "/frentes/",
+        "cor": "navy"
+      },
+      {
+        "titulo": "Capturas e castrações",
+        "dica": "Ajude num mutirão",
+        "url": "/frentes/capturas/",
+        "cor": "rust"
+      },
+      {
+        "titulo": "Notícias",
+        "dica": "Ações e avisos",
+        "url": "/noticias/",
+        "cor": "beige"
+      }
+    ],
+    "enfeite": "caixa",
+    "anda": true
+  },
+  "/contato/": {
+    "campo": "mist",
+    "foto": "f01-ru-campus2",
+    "blocos": [
+      {
+        "titulo": "Encontrei um gato",
+        "dica": "Caso urgente",
+        "url": "/encontrei-um-gato/",
+        "cor": "rust"
+      },
+      {
+        "titulo": "Quem somos",
+        "dica": "O grupo",
+        "url": "/quem-somos/",
+        "cor": "beige"
+      }
+    ],
+    "continue": [
+      {
+        "titulo": "O que fazemos",
+        "dica": "Frentes e projetos",
+        "url": "/frentes/",
+        "cor": "navy"
+      },
+      {
+        "titulo": "Parcerias",
+        "dica": "Quer ser parceiro?",
+        "url": "/frentes/parcerias/",
+        "cor": "blue"
+      },
+      {
+        "titulo": "Como ajudar",
+        "dica": "Pequenas ações",
+        "url": "/ajude/",
+        "cor": "beige"
+      }
+    ],
+    "enfeite": "olhar"
+  },
+  "/acessibilidade-e-privacidade/": {
+    "campo": "mist",
+    "blocos": [
+      {
+        "titulo": "Fale conosco",
+        "dica": "Achou um problema?",
+        "url": "/contato/",
+        "cor": "blue"
+      },
+      {
+        "titulo": "Início",
+        "dica": "Voltar",
+        "url": "/",
+        "cor": "beige"
+      }
+    ],
+    "enfeite": "dorme"
+  }
+}

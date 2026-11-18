@@ -1,0 +1,36 @@
+Este repositório tem partes com licenças diferentes (decisão 0021; padrão até a pergunta Q-55 ser respondida).
+
+1. CÓDIGO (scripts/, eleventy.config.mjs, src/_includes/, src/_data/, src/*.njk, config/, src/assets/css/):
+   licença MIT, texto abaixo.
+
+2. TEXTOS E IMAGENS (src/pages/, src/_includes/compartilhado.md, src/assets/img/, src/assets/fotos/,
+   favicon.*, apple-touch-icon.png, o logotipo): © 2026 Gatos do C2. Todos os direitos reservados.
+   Não podem ser reutilizados sem autorização do grupo (gatosdoc2@gmail.com).
+
+3. FONTES (src/assets/fonts/): SIL Open Font License 1.1, textos em src/assets/fonts/OFL-*.txt.
+
+4. .claude/skills/frontend-design/: Apache License 2.0, texto em .claude/skills/frontend-design/LICENSE.txt.
+
+--------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 Gatos do C2
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

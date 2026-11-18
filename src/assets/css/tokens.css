@@ -1,0 +1,95 @@
+/* GENERATED from design/tokens.json by design/scripts/build-tokens.mjs. Do not edit by hand. */
+/* PROPOSAL (decision 0015); the design lead approves palette roles, fonts and radius at Gate 3 */
+:root {
+  /* Palette (measured from the logo or derived) */
+  --color-navy: #092851; /* logo outline */
+  --color-blue: #093EA0; /* logo helmet */
+  --color-rust: #B04E18; /* logo crest */
+  --color-rust-dark: #8F3D10; /* derived: darker rust */
+  --color-paper: #FFFFFF; /* white (logo outline) */
+  --color-mist: #EEF4F7; /* derived: pale tint of the eye blue */
+  --color-beige: #E2D5BE; /* logo face */
+  --color-eye: #AFCED9; /* logo eye */
+  --color-muted: #3E556E; /* derived: navy hue, lighter */
+  --color-line: #6B8193; /* derived: navy hue */
+
+  /* Roles: use these in components, not the palette names */
+  --ground: var(--color-paper);
+  --ground-alt: var(--color-mist);
+  --text: var(--color-navy);
+  --text-muted: var(--color-muted);
+  --link: var(--color-blue);
+  --focus: var(--color-blue);
+  --rule: var(--color-line);
+  --action-bg: var(--color-rust);
+  --action-bg-hover: var(--color-rust-dark);
+  --action-text: var(--color-paper);
+  --action-text-on-mist: var(--color-rust-dark);
+  --field-footer: var(--color-navy);
+  --field-emblem: var(--color-blue);
+  --on-field-text: var(--color-paper);
+  --on-field-accent: var(--color-beige);
+  --on-field-link: var(--color-eye);
+  --on-field-focus: var(--color-eye);
+  --on-field-action-bg: var(--color-paper);
+  --on-field-action-text: var(--color-navy);
+
+  /* Fonts */
+  --font-serif: Literata, Georgia, 'Times New Roman', serif; /* body, headings */
+  --font-label: 'Atkinson Hyperlegible Next', system-ui, -apple-system, 'Segoe UI', sans-serif; /* labels, nav, buttons, captions, dates, tables */
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-label: 500;
+  --weight-label-strong: 700;
+  --leading-body: 1.6;
+  --leading-heading: 1.2;
+  --leading-label: 1.35;
+  --measure: 65ch;
+
+  /* Fluid type: 360 px -> 1280 px viewport */
+  --step-0: clamp(1.125rem, 1.0761rem + 0.2174vw, 1.25rem); /* 18 -> 20 px */
+  --step-1: clamp(1.35rem, 1.2668rem + 0.3696vw, 1.5625rem); /* 21.6 -> 25 px */
+  --step-2: clamp(1.62rem, 1.4896rem + 0.5793vw, 1.9531rem); /* 25.92 -> 31.25 px */
+  --step-3: clamp(1.9438rem, 1.7491rem + 0.8652vw, 2.4413rem); /* 31.1 -> 39.06 px */
+  --step-4: clamp(2.3325rem, 2.051rem + 1.2511vw, 3.0519rem); /* 37.32 -> 48.83 px */
+  --step-minus-1: clamp(0.9375rem, 0.913rem + 0.1087vw, 1rem); /* 15 -> 16 px */
+
+  /* Space (rem) */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-s: 1rem;
+  --space-m: 1.5rem;
+  --space-l: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+
+  /* Shape */
+  --radius-none: 0;
+  --radius-control: 2px;
+  --border-hairline: 1px;
+  --focus-width: 3px;
+  --focus-offset: 2px;
+  --target-min: 44px;
+
+  /* v4 PROPOSAL: one type scale (6 steps) and one spacing scale (7 steps); v4 CSS uses only these */
+  --fs-small: clamp(0.9375rem, 0.913rem + 0.1087vw, 1rem); /* 15 -> 16 px */
+  --fs-body: clamp(1.0625rem, 1.038rem + 0.1087vw, 1.125rem); /* 17 -> 18 px */
+  --fs-lead: clamp(1.25rem, 1.1889rem + 0.2717vw, 1.4063rem); /* 20 -> 22.5 px */
+  --fs-title: clamp(1.5rem, 1.4022rem + 0.4348vw, 1.75rem); /* 24 -> 28 px */
+  --fs-section: clamp(1.75rem, 1.5788rem + 0.7609vw, 2.1875rem); /* 28 -> 35 px */
+  --fs-page: clamp(2.0625rem, 1.7935rem + 1.1957vw, 2.75rem); /* 33 -> 44 px */
+  --lh-body: 1.65;
+  --lh-heading: 1.2;
+  --lh-label: 1.4;
+  --sp-1: 0.25rem; /* 4 px */
+  --sp-2: 0.5rem; /* 8 px */
+  --sp-3: 1rem; /* 16 px */
+  --sp-4: 1.5rem; /* 24 px */
+  --sp-5: 2rem; /* 32 px */
+  --sp-6: 3rem; /* 48 px */
+  --sp-7: 5rem; /* 80 px */
+  --accent-bar-width: 3rem;
+  --accent-bar-height: 3px;
+}

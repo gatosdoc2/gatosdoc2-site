@@ -1,0 +1,8 @@
+[
+  { "titulo": "Quem somos", "titulo_en": "About us", "url": "/quem-somos/" },
+  { "titulo": "O que fazemos", "titulo_en": "What we do", "url": "/frentes/", "inclui": ["/manejo-etico/", "/adocao/", "/encontrei-um-gato/"] },
+  { "titulo": "Ajude", "titulo_en": "Help us", "url": "/ajude/" },
+  { "titulo": "Lojinha", "url": "/loja/", "exemplo": true },
+  { "titulo": "Notícias", "titulo_en": "News", "url": "/noticias/" },
+  { "titulo": "Contato", "titulo_en": "Contact", "url": "/contato/" }
+]

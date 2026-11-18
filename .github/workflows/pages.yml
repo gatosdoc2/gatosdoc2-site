@@ -1,0 +1,50 @@
+# Publishes the site on GitHub Pages (decision 0036). Runs on every push to main, or by hand (Actions → "Publicar no GitHub Pages").
+# One-time setup by a person: repository Settings → Pages → Source: "GitHub Actions".
+name: Publicar no GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      # Quick check on a normal build (same rules as on a laptop; pa11y and Lighthouse stay local).
+      - run: npm run check -- --rapido
+      - id: pages
+        uses: actions/configure-pages@v5
+      # Published build: every link gets the /<repo>/ prefix; canonical, sitemap and robots use the Pages URL.
+      - run: npm run build
+        env:
+          PATH_PREFIX: ${{ steps.pages.outputs.base_path }}/
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

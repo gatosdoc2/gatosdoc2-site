@@ -1,0 +1,7 @@
+{
+  "_leia": "Copie para upload.local.json (que fica fora do git) e preencha com os dados que o responsável guarda. Nunca coloque a senha aqui.",
+  "host": "servidor.exemplo",
+  "usuario": "usuario-exemplo",
+  "porta": "",
+  "pasta": "/caminho/exemplo/public_html"
+}

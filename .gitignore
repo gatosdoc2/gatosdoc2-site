@@ -1,0 +1,20 @@
+# Dependências e saída do build
+node_modules/
+_site/
+.cache/
+.lighthouseci/
+
+# Envio ao servidor: dados locais, nunca no repositório
+upload.local.json
+upload.sftp
+upload-manifest.json
+
+# Segredos
+.env
+.env.*
+*.key
+*.pem
+
+# Sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "html-validate:recommended"
+  ],
+  "rules": {
+    "no-redundant-role": "off",
+    "no-trailing-whitespace": "off",
+    "doctype-style": [
+      "error",
+      {
+        "style": "lowercase"
+      }
+    ],
+    "attribute-empty-style": "off",
+    "void-style": [
+      "error",
+      {
+        "style": "omit"
+      }
+    ],
+    "attribute-boolean-style": [
+      "error",
+      {
+        "style": "empty"
+      }
+    ]
+  }
+}
